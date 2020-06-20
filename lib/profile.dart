@@ -23,10 +23,7 @@ class Profile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Profile"),
-      ),
-      body: ArCoreView(onArCoreViewCreated: _onArCoreViewCreated,),
+         body: ArCoreView(onArCoreViewCreated: _onArCoreViewCreated,),
     );
   }
 }
