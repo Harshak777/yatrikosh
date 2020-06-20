@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:yatrikosh/home.dart';
+import 'package:yatrikosh/profile.dart';
+import 'package:yatrikosh/settings.dart';
 
 void main() => runApp(MainUI());
 
